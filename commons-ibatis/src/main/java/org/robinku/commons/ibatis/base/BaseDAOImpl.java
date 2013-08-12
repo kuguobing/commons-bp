@@ -203,4 +203,8 @@ public class BaseDAOImpl {
     protected SqlMapClientTemplate getUpdateSqlMapClientTemplate() {
         return updateSqlMapClientTemplate;
     }
+    
+    public SqlMapClientTemplate fetchUpdateSqlMapClientTemplate() {
+        return updateSqlMapClientTemplate;
+    }
 }
